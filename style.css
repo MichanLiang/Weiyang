@@ -1,0 +1,164 @@
+@media screen and (max-width: 1024px) {
+  #wrapper {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  li a {
+    padding: 10px;
+  }
+}
+
+a {
+  font-size: 25px;
+  color: #615f68;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Serif TC", serif;
+  /*上面是字體*/
+}
+body {
+  background-color: antiquewhite;
+}
+
+#wrapper {
+  margin: 0px auto;
+  width: 1024px;
+  background-color: antiquewhite;
+}
+/*上面是網頁整體寬度*/
+#logo {
+  margin: auto;
+}
+#logo img {
+  width: 100%;
+}
+nav {
+  background-color: #615f68;
+  text-align: center;
+  margin: 0px auto;
+}
+ul {
+  display: inline-block;
+  margin: 0px;
+}
+li {
+  list-style: none;
+  float: left;
+  text-align: left;
+}
+li a {
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+li a:hover {
+  color: antiquewhite;
+}
+#content_in {
+  margin: 0px auto;
+  padding: 30px 50px;
+  /*上面是上下、左右內距*/
+  text-align: center;
+  background-color: antiquewhite;
+}
+#content h1 {
+  color: black;
+  margin-bottom: 50px;
+  /*上面是標題和下方內容的間距*/
+}
+#content_in p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#AAA_in a {
+  font-size: 25px;
+  color: black;
+  font-family: "Noto Serif TC", serif;
+  margin: 20px 20px;
+}
+#AAA_in :hover {
+  color: rgb(203, 203, 238);
+}
+#PTQcontent h1 {
+  font-size: 30px;
+  margin: 10px 20px;
+}
+#PTQcontent h2 {
+  font-size: 25px;
+  margin: 10px 30px;
+}
+#PTQcontent a {
+  font-size: 25px;
+  color: #615f68;
+  margin: 0px auto;
+}
+#PTQcontent p {
+  font-size: 20px;
+  margin: 10px 45px;
+}
+#PTQcontent li :hover {
+  color: rgb(203, 203, 238);
+}
+#PTQcontentli li {
+  background-color: antiquewhite;
+  color: #615f68;
+}
+#PTQcontentli li :hover {
+  color: rgb(203, 203, 238);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  color: #615f68;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #615f68;
+}
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #615f68;
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

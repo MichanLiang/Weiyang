@@ -1,0 +1,43 @@
+#UPcontent {
+  display: grid;
+  margin: 10px 20px;
+}
+#UPcontent h1 {
+  font-size: 30px;
+  margin: 10px 10px;
+}
+#UPcontent h2 {
+  font-size: 25px;
+  margin: 10px 10px;
+}
+#UPcontent p {
+  font-size: 20px;
+  margin: 10px 10px;
+}
+#UPcontent2 {
+  font-size: 20px;
+  display: grid;
+  margin: 10px 20px;
+}
+#UPcontent2 h1 {
+  font-size: 30px;
+  margin: 10px 10px;
+}
+#UPcontent2 h2 {
+  font-size: 25px;
+  margin: 10px 10px;
+}
+#UPcontent2 p {
+  font-size: 20px;
+  margin: 10px 10px;
+}
+@media screen and (max-width: 1024px) {
+  #wrapper {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  li a {
+    padding: 10px;
+  }
+}
